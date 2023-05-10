@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abhaya Libre';
+}
+
+
+.home {
+    display: flex;
+    min-width: 100vh;
+    position: relative;
+    
+}
+.home .left .inner.sticky .icon{
+    position: absolute;
+    left: -40px;
+    top: -40px;
+}
+.home .left .inner.sticky .icon1{
+    position: absolute;
+    left: -80px;
+    top: -80px;
+}
+
+
+.home .left {
+    flex: 40%;
+}
+
+.home .right {
+    flex: 60%;
+   
+}
+
+
+.left .inner.sticky {
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.home .dp {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.home .profile-manu .name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #142A54
+    ;
+
+}
+
+
+
+.home .profile-manu .name h1 {
+    padding: 70px 0px 0px 136px;
+}
+
+.home .profile-manu .social {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    row-gap: 5px;
+    padding-top: 20px;
+
+}
+/* 
+.home .profile-manu .social img {
+    /* flex-direction: column; */
+
+
+.home .profile-manu .text {
+    padding-left: 135px;
+    padding-right: 0;
+    padding-top: 40px;
+color: #142A54;
+}
+
+.home .profile-manu .info{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+}
+.home .profile-manu .info h1{
+    padding-right: 15px;
+    color: #142A54;
+}
+
+
+.home .profile-manu .info .logos{
+    height: 45px;
+    width: auto;
+}
+.home .profile-manu .info .information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #142A54;
+    
+    
+}
+.home .profile-manu .info .information img{
+padding-left: 10px;
+}
+
+
+
+
+.home .left .inner.sticky .ractangle{
+    position: absolute;
+left: -50px;
+
+}
+/* ---------------------------------------------------scroll section started-------------------------------------------------- */
+
+.home .right .container{
+    background-color: #E8F0FF;
+    margin-top: 70px;
+    border-radius: 32px;
+}
+ 
+.home .right .container h2{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 630px;
+}   
+/* .border-3{
+    
+            width: 168px !important;
+} */
